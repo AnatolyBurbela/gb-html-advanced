@@ -1,0 +1,166 @@
+body {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.padding-site {
+  padding: 50px;
+}
+
+.main-header {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #445161;
+  color: #fff;
+  font-family: Arial;
+}
+
+.main-header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.main-header-wrp {
+  width: 458px;
+  float: left;
+}
+
+.main-header-title {
+  margin: 0 0 10px 0;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.main-header-list {
+  padding: 0 0 0 20px;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.main-header-list-item {
+  list-style-type: none;
+  position: relative;
+}
+
+.main-header-list-item:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/checkmark.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+  left: -25px;
+}
+
+.main-header-img {
+  display: block;
+  width: 469px;
+  min-height: 214px;
+  float: right;
+  background-color: #fff;
+}
+
+.about-product-wrp {
+  float: left;
+  width: 650px;
+}
+
+.about-product-title {
+  color: #445161;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0;
+}
+
+.about-product-text {
+  color: #333333;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about-product-video {
+  background-color: #445161;
+  float: right;
+}
+
+.about-product:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.dignity {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+
+.dignity-title {
+  color: #445161;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0 0 30px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dignity-item-wrp1 {
+  width: 49%;
+  margin: 0 2% 0 0;
+}
+
+.dignity-item-wrp2 {
+  width: 49%;
+}
+
+.dignity-item {
+  width: 100%;
+}
+
+.dignity-item-desc {
+  color: #333333;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+details summary::-webkit-details-marker {
+  display: none
+}
+
+details summary:before {
+  content: url(../img/details-marker-closed.png);
+  margin-right: 9px;
+}
+
+details[open] summary:before {
+  content: url(../img/details-marker-opened.png);
+}
+
+.dignity-item-text {
+  color: #333333;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
