@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway.ttf"); }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat.ttf"); }
+body {
+  width: 1920px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  min-height: 1024px;
+  background-image: url(../img/bg.png);
+  background-color: #221c19;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.header-top {
+  width: 1220px;
+  min-height: 140px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0;
+  box-sizing: border-box; }
+
+.logo {
+  width: 64px;
+  height: 56px;
+  text-decoration: none;
+  color: #fff; }
+
+.logo-svg {
+  fill: currentColor; }
+
+.logo-txt {
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: right;
+  letter-spacing: -1.36px;
+  color: #ffffff; }
+
+.logo:hover {
+  color: #221c19; }
+
+.menu-list {
+  list-style-type: none;
+  margin: 0; }
+
+.menu-list-item {
+  float: left; }
+
+.menu-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 30px; }
+
+.cart {
+  background-color: transparent;
+  border: none;
+  outline: none; }
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  min-height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  position: relative; }
+
+.slider-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid green; }
+
+.slider-btn:nth-of-type(1) {
+  margin: 0 50px 0 0; }
+
+.slider-btn:nth-of-type(2) {
+  margin: 0 0 0 50px; }
+
+.slider-txt {
+  width: 40%;
+  min-height: 200px;
+  background-color: #ccc; }
+
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0;
+  border: 1px solid red;
+  /*   position: absolute;
+  bottom: 0;
+  margin: auto; */ }
+
+.slider-pagination-item {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: gold; }
+
+/*# sourceMappingURL=style.css.map */
