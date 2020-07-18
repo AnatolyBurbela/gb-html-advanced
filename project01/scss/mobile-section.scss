@@ -1,0 +1,55 @@
+.mobile {
+    width: 100%;
+    min-height: 695px;
+    background-color: #fbfaf8;
+    background-image: url(../img/mobile-bg.png);
+    background-repeat: no-repeat;
+    background-position: 423px 80px;
+}
+
+.mobile-content {
+    width: 657px;
+    padding: 180px 0px 0px 877px;
+}
+
+.mobile-content-title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.mobile-content-text {
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #8c8c8c;
+}
+
+.mobile-content-list{
+    list-style-type: none;
+    margin: 40px 0 0 48px;
+}
+
+.mobile-content-list-item {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #8c8c8c;
+    position: relative;
+}
+
+.mobile-content-list-item:before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url(../img/marker.png);
+    position: absolute;
+    top: 5px;
+    left: -41px;
+}
