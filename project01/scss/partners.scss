@@ -1,0 +1,21 @@
+.partners {
+    min-height: 489px;
+    width: 100%;
+    background-image: url(../img/partners-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner1, 
+.partner2, 
+.partner3 {
+    margin: 0 90px 0 0;
+}
+
+.partners-link:hover {
+    transform: scale(1.1);
+}
