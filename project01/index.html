@@ -21,15 +21,19 @@
                     <span class="logo-txt">Waxom</span>
                 </a>
                 <nav class="menu">
-                    <ul class="menu-list">
-                        <li class="menu-list-item"><a class="menu-link" href="#">Home</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">About Us</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">Portfolio</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">Features</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">Blog</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">Pricing</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">Shortcodes</a></li>
-                        <li class="menu-list-item"><a class="menu-link" href="#">Contact</a></li>
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu-list menu__box">
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Home</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">About Us</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Portfolio</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Features</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Blog</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Pricing</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Shortcodes</a></li>
+                        <li class="menu-list-item"><a class="menu-link menu__item" href="#">Contact</a></li>
                     </ul>
                 </nav>
                 <button class="cart">
@@ -431,17 +435,17 @@
             <div class="footer-top-item">
                 <span class="footer-top-item-title">Recent Posts</span>
                 <a href="#" class="footer-top-item-link-large">
-                    <time class="link-time">September 08, 2015</time>
+                    <time datetime = "2015-09-08" class ="link-time">September 08, 2015</time>
                     <p class="footer-top-item-link-large-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit
                     </p>
                 </a>
                 <a href="#" class="footer-top-item-link-large">
-                    <time class="link-time">September 08, 2015</time>
+                    <time datetime = "2015-09-08" class="link-time">September 08, 2015</time>
                     <p class="footer-top-item-link-large-txt">Diam nonummy nibh euismod tincidunt ut laoreet dolore
                         magna</p>
                 </a>
                 <a href="#" class="footer-top-item-link-large">
-                    <time class="link-time">September 08, 2015</time>
+                    <time datetime = "2015-09-08" class="link-time">September 08, 2015</time>
                     <p class="footer-top-item-link-large-txt">Claritas est etiam processus dynamicus, qui sequitur
                         mutationem per seacula quarta decima</p>
                 </a>
@@ -449,36 +453,48 @@
             <div class="footer-top-item">
                 <span class="footer-top-item-title">Our Twitter</span>
                 <a href="#" class="footer-top-item-link-large">
-                    <p class="footer-top-item-link-large-txt twitter-txt"><span class="link-colored-text-blue">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                    <p class="footer-top-item-link-large-txt twitter-txt"><span
+                            class="link-colored-text-blue">@waxom</span> Cum soluta nobis eleifend option congue nihil
+                        imperdiet doming</p>
                     <span class="link-timeago">3 mins ago</span>
                 </a>
                 <a href="#" class="footer-top-item-link-large">
-                    <p class="footer-top-item-link-large-txt twitter-txt">Mirum est <span class="link-colored-text-blue">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                    <p class="footer-top-item-link-large-txt twitter-txt">Mirum est <span
+                            class="link-colored-text-blue">#envato</span> notare quam littera gothica, quam nunc putamus
+                        parum anteposuerit litterarum</p>
                     <span class="link-timeago">5 hours ago</span>
                 </a>
                 <a href="#" class="footer-top-item-link-large">
-                    <p class="footer-top-item-link-large-txt twitter-txt">Soluta nobis option<span class="link-colored-text-grey">bit.ly/1Hniso7</span></p>
+                    <p class="footer-top-item-link-large-txt twitter-txt">Soluta nobis option<span
+                            class="link-colored-text-grey">bit.ly/1Hniso7</span></p>
                     <span class="link-timeago">20 days ago</span>
                 </a>
             </div>
             <div class="footer-top-item">
                 <span class="footer-top-item-title">Dribbble Widget</span>
-                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget1.png" alt="widget1" class="footer-top-item-img" width="130" height="98"></a>
-                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget2.png" alt="widget2" class="footer-top-item-img" width="130" height="98"></a>
-                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget3.png" alt="widget3" class="footer-top-item-img" width="130" height="98"></a>
-                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget4.png" alt="widget4" class="footer-top-item-img" width="130" height="98"></a>
+                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget1.png"
+                        alt="widget1" width="130" height="98"></a>
+                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget2.png"
+                        alt="widget2" width="130" height="98"></a>
+                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget3.png"
+                        alt="widget3" width="130" height="98"></a>
+                <a href="#" class="footer-top-item-img-link"><img class="footer-top-item-img" src="img/widget4.png"
+                        alt="widget4" width="130" height="98"></a>
             </div>
         </section>
         <section class="footer-bottom">
             <div class="footer-bottom-wrp1">
-                <span class="footer-bottom-txt">Copyright &copy; 2015 <span class="footer-bottom-colored-txt">Waxom</span></span>
+                <span class="footer-bottom-txt">Copyright &copy; 2015 <span
+                        class="footer-bottom-colored-txt">Waxom</span></span>
                 <a href="#" class="footer-bottom-link right-line">Privacy Policy</a>
                 <a href="#" class="footer-bottom-link right-line">FAQ</a>
                 <a href="#" class="footer-bottom-link">Support</a>
             </div>
             <div class="footer-bottom-wrp2">
-                <a href="#" class="footer-bottom-link right-line">Designed by<span class="footer-bottom-link-colored-txt">ThemeFire</span></a>
-                <a href="#" class="footer-bottom-link">Only on<span class="footer-bottom-link-colored-txt">Envato Market</span></a>
+                <a href="#" class="footer-bottom-link right-line">Designed by<span
+                        class="footer-bottom-link-colored-txt">ThemeFire</span></a>
+                <a href="#" class="footer-bottom-link">Only on<span class="footer-bottom-link-colored-txt">Envato
+                        Market</span></a>
             </div>
         </section>
     </footer>

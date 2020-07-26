@@ -1,0 +1,224 @@
+@media only screen and (max-device-width: 576px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        min-height: 140px;
+    }
+    
+    .header-top {
+        min-height: auto;
+        width: 576px;
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    .logo {
+        margin: 0;
+        padding: 35px 0 0 20px;
+    }
+    .cart {
+        margin: 35px 30px 0 0px;
+    }
+    
+    .search {
+        margin: 35px 20px 0px 0;
+    }
+
+    .slider {
+        display: none;
+    }
+    .features {
+        min-height: auto;
+        flex-wrap: wrap;
+    }
+
+    .features-item {
+        padding: 0 0 10px 0;
+    }
+
+    .examples {
+        display: none;
+    }
+
+    .aside-content {
+        width: 300px;
+        height: 100px;
+        margin-right: 0px;
+    }
+    
+    
+    .projects{
+        width: 100%;
+
+    }
+
+    .projects-menu-btn {
+        margin: 10px 7px 0 0;
+    }
+
+    .projects-btn {
+        margin: 0 15px 20px 0px;
+        width: 60%;
+    }
+
+    .video {
+        display: none;
+    }
+    
+    .stats {
+        display: none;
+    }
+
+    .mobile {
+        min-height: 600px;
+        background-position: 20px 315px;
+        background-size: 34%;
+    }
+
+    .mobile-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mobile-content-title {
+        margin-left: 80px;
+    }
+
+    .mobile-content-text {
+        font-size: 14px;
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .mobile-content-list {
+        margin: 60px 0 0 200px;
+    }
+
+    .mobile-content-list-item {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .posts {
+        padding: 40px 0 20px 0;
+    }
+
+    .posts-text {
+        margin: 20px;
+    }
+
+    .posts > article:nth-child(3),
+    .posts > article:nth-child(4) {
+         margin: 0 0 15px 0;
+    }
+
+    .posts-btn-wrp {
+        margin-top: 20px;
+    }
+
+    .partners {
+        min-height: 180px;
+    }
+
+    .partners-link {
+        margin: 0 20px 0 20px;
+    }
+
+    .partners-link img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    .footer-bottom {
+        min-height: auto;
+        flex-flow: row wrap;
+    }
+      
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+      
+      .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        transition-duration: .25s;
+      }
+      
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      
+      .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #372f2d;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        transition-duration: .25s;
+        display: flex;
+        flex-flow: column wrap;
+      }
+      
+      .menu__item {
+        display: block;
+        padding: 10px 24px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+      }
+      .menu__item:hover {
+        background-color: #CFD8DC;
+      }
+
+}
